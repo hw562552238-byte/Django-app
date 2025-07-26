@@ -1,0 +1,29 @@
+[project]
+name = "django-app"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "hw562552238-byte",email = "hw562552238@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "django_app", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+isort = "^6.0.1"
+pytest = "^8.4.1"
+mypy = "^1.17.0"
+ipython = "^9.4.0"
+notebook = "^7.4.4"
+pre-commit = "^4.2.0"
+pre-commit-hooks = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

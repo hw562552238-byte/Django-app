@@ -1,0 +1,25 @@
+# Python 缓存、虚拟环境与IDE相关
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter notebooks checkpoint
+.ipynb_checkpoints/
+
+# 日志、临时文件
+*.log
+*.tmp
+
+# 数据集、模型、大文件（防止意外提交）
+*.csv
+*.zip
+*.tar.gz
+*.h5
+*.pkl
+
+# 系统与临时目录
+Thumbs.db
